@@ -1,9 +1,13 @@
 import React from 'react'
+import styles from './header.css'
 
-function App () {
-  return( 
+function App() {
+  return ( 
 
-    <h1 className="titulo">ola</h1>
+    <div className={styles.header}>  
+
+       <h1 className={styles.title}>ClinicDoctor</h1>
+    </div>
 
   );
 }
