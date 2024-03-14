@@ -1,0 +1,16 @@
+/* cabeçalho*/
+
+ .header {
+   background-color:  #6ba596;
+   overflow: hidden;
+   max-width: 100%;
+   max-height: 100%;
+ }
+ .title {
+    color: black;
+    text-align: center;
+ }
+
+
+
+/* cabeçalho*/

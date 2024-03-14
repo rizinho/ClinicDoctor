@@ -1,18 +1,27 @@
 import React from 'react'
 
-import con from './container.css'
-import hea from './header.css'
+import './container.css'
+import './cabeçalho.css'
+import './rodape.css'
 
-function App() {
+const App = () => {
   return ( 
-    <div className={con.container}>
 
-       <div className={hea.headerContainer}>
-          <h1 className={hea.title}> ClinicDoctor </h1>
+    <div className="main">
+      <header>
+
+         <div className="headerContainer">
+           <h1 className="title"> ClinicDoctor </h1>
+         </div>
+
+       </header>
+
+       <div className='rodape'>
+         <p>conteudo rodape</p>
        </div>
 
     </div>
-
+      
   );
 }
 
