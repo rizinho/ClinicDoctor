@@ -1,12 +1,16 @@
 import React from 'react'
-import styles from './header.css'
+
+import con from './container.css'
+import hea from './header.css'
 
 function App() {
   return ( 
+    <div className={con.container}>
 
-    <div className={styles.header}>  
+       <div className={hea.headerContainer}>
+          <h1 className={hea.title}> ClinicDoctor </h1>
+       </div>
 
-       <h1 className={styles.title}>ClinicDoctor</h1>
     </div>
 
   );
