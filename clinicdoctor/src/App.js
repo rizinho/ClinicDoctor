@@ -1,3 +1,4 @@
+import styles from './App.module.css'
 import React from 'react'
 
 import './container.css'
@@ -7,19 +8,8 @@ import './rodape.css'
 const App = () => {
   return ( 
 
-    <div className="main">
-      <header>
-
-         <div className="headerContainer">
-           <h1 className="title"> ClinicDoctor </h1>
-         </div>
-
-       </header>
-
-       <div className='rodape'>
-         <p>conteudo rodape</p>
-       </div>
-
+    <div>
+          <p>hfg</p>
     </div>
       
   );
