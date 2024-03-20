@@ -1,18 +1,27 @@
 import styles from './App.module.css'
 import React from 'react'
 
-import './container.css'
-import './cabeçalho.css'
-import './rodape.css'
-
 const App = () => {
   return ( 
 
-    <div>
-          <p>hfg</p>
+    <div className={styles.main}>
+
+      <header className={styles.contHeader}>
+        <div>
+          <div className={styles.headerContainer}>
+            <p>BETA</p>
+          </div>
+        </div>
+          
+      </header>
+
+      <div className={styles.container}>
+
+      </div>
+
     </div>
       
-  );
+  )
 }
 
 export default App;
