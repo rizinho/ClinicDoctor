@@ -1,81 +1,71 @@
 /*Header********/
 .header{
     display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 90px;
+    padding: 25px;
 }
 
 
 /*Icon*/
 .icon{
-    width: 100px;
-    height: 100px;
-    margin-left: 60px;
-    
+   width: 62px; 
+   height: 50px;
+   margin-right: 20px;
+   margin-left: 10px;
 }
 /*fim Icon*/
 
-
+.logo{
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
 
 /*txt*/
 
 .txtLog{
-    font-family:'Old Standard TT';
+    font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
 }
 
 /*fim txt*/
 
-
 /*botoes*/
-.bDuvidas{
-    border: none;
-    background-color: white;
-    cursor: pointer;
-    padding: 40px 20px;
-    position: fixed;
-    right: 600px;
-    text-decoration: none;
-    font-size: 18px;
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
 }
 
-.bSac{
+.link{
     border: none;
-    background-color: white;
+    background-color: transparent;
     cursor: pointer;
-    padding: 40px 20px;
-    position: fixed;
-    right: 450px;
     text-decoration: none;
     font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.bConfig{
-    border: none;
-    background-color: white;
-    cursor: pointer;
-    padding: 40px 20px;
-    position: fixed;
-    right: 250px;
-    text-decoration: none;
-    font-size: 18px;
-}
 
 .bLogin{
     border-radius: 5px;
     border: none;
     background-color: #6ba596;
     cursor: pointer;
-    padding: 16px 40px;
-    position: fixed;
-    right: 70px;
-    margin-top:25px ;
+    width: 250px;
+    height: 40px;
     text-decoration: none;
     font-size: 18px;
+    margin-right: 20px;
+
 }
 
-.bDuvidas:hover,
-.bSac:hover,
-.bConfig:hover,
-.bLogin:hover{
+.link:hover{
     text-decoration: underline;
 }
 
@@ -85,6 +75,7 @@
 /*FIMHeader******/
 
 /*Body*/
+
 .imgContainer{
     width: 80%;
     height: 100%;

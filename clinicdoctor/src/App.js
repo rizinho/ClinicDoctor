@@ -9,17 +9,27 @@ import img1 from './assets/img1.jpg'
 const App = () => {
   return ( 
 
-    <div className={styles.main}>
+    <body>
+
         <div className={styles.header}>
 
-          <img  className={styles.icon} src={icon} alt='Imagem do logo'/>
+          <div className={styles.logo}>
 
-          <h1 className={styles.txtLog}>Consult Doctor</h1>
+            <img  className={styles.icon} src={icon} alt='Imagem do logo'/>
 
-          <button className={styles.bDuvidas}>Dúvidas</button>
-          <button className={styles.bSac}>SAC</button>
-          <button className={styles.bConfig}>Configurações</button>
-          <button className={styles.bLogin}>Login</button>
+            <h1 className={styles.txtLog}>Consult Doctor</h1>
+
+          </div>
+
+          <div className={styles.navBar}>
+
+            <button className={styles.link}>Dúvidas</button>
+            <button className={styles.link}>SAC</button>
+            <button className={styles.link}>Configurações</button> 
+            <button className={styles.bLogin}>Login</button>
+            <button className={styles.bLogin}>Cadastro</button>
+
+          </div>
 
         </div>
 
@@ -27,13 +37,13 @@ const App = () => {
 
        <div className={styles.container}>
 
-         <img className={styles.imgContainer} src={img1} alt='imagem conteúdo'/>
+         {/* <img className={styles.imgContainer} src={img1} alt='imagem conteúdo'/> */}
 
        </div>
 
         {/*FIMbody*/}
 
-    </div>
+        </body>
   )
 }
 
