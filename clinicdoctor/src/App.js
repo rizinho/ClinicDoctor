@@ -5,22 +5,15 @@ const App = () => {
   return ( 
 
     <div className={styles.main}>
+        <div className={styles.header}>
 
-      <header className={styles.contHeader}>
-        <div>
-          <div className={styles.headerContainer}>
-            <p>BETA</p>
-          </div>
+          <button className={styles.bDuvidas}>Duvidas</button>
+          <button className={styles.bSac}>SAC</button>
+          <button className={styles.bConfig}>Configurações</button>
+          <button className={styles.bLogin}>Login</button>
+
         </div>
-          
-      </header>
-
-      <div className={styles.container}>
-
-      </div>
-
     </div>
-      
   )
 }
 
