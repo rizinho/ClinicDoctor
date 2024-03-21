@@ -1,12 +1,40 @@
-/*Header*/
+/*Header********/
+.header{
+    display: flex;
+}
 
+
+/*Icon*/
+.icon{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+    
+}
+/*fim Icon*/
+
+
+
+/*txt*/
+
+.txtLog{
+    font-family:'Old Standard TT';
+    font-size: 35px;
+}
+
+/*fim txt*/
+
+
+/*botoes*/
 .bDuvidas{
     border: none;
     background-color: white;
     cursor: pointer;
     padding: 40px 20px;
     position: fixed;
-    right: 20px;
+    right: 600px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .bSac{
@@ -15,7 +43,9 @@
     cursor: pointer;
     padding: 40px 20px;
     position: fixed;
-    right: 20px;
+    right: 450px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .bConfig{
@@ -24,7 +54,9 @@
     cursor: pointer;
     padding: 40px 20px;
     position: fixed;
-    right: 20px;
+    right: 250px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .bLogin{
@@ -32,7 +64,29 @@
     border: none;
     background-color: #6ba596;
     cursor: pointer;
-    padding: 12px 40px;
+    padding: 16px 40px;
     position: fixed;
-    right: 20px;
+    right: 70px;
+    margin-top:25px ;
+    text-decoration: none;
+    font-size: 18px;
 }
+
+.bDuvidas:hover,
+.bSac:hover,
+.bConfig:hover,
+.bLogin:hover{
+    text-decoration: underline;
+}
+
+
+/*fim botoes*/
+
+/*FIMHeader******/
+
+/*Body*/
+.imgContainer{
+    width: 80%;
+    height: 100%;
+}
+/*FIMbody*/
