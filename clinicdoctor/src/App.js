@@ -1,10 +1,8 @@
 import styles from './App.module.css'
 import React from 'react'
-
-/*imagens*/
 import icon from './assets/logotcc.png'
-import img1 from './assets/img1.jpg'
-/*Fim imagens*/
+import imgContainer from './assets/imgContainer.png'
+import logoContainer from './assets/logoContainer.png'
 
 const App = () => {
   return ( 
@@ -33,15 +31,19 @@ const App = () => {
 
         </div>
 
-        {/*Body*/}
+        
 
        <div className={styles.container}>
-
-         {/* <img className={styles.imgContainer} src={img1} alt='imagem conteúdo'/> */}
-
+       <img className={styles.backgroundContainer} src={imgContainer} />
+          <img className={styles.logoContainer} src={logoContainer}/>
        </div>
 
-        {/*FIMbody*/}
+       <div className={styles.main}>
+
+      
+       </div>
+
+        
 
         </body>
   )
