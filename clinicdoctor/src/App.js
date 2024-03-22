@@ -21,7 +21,6 @@ const App = () => {
 
           <div className={styles.navBar}>
 
-            <button className={styles.link}>Dúvidas</button>
             <button className={styles.link}>SAC</button>
             <button className={styles.link}>Configurações</button> 
             <button className={styles.bLogin}>Login</button>
@@ -45,7 +44,7 @@ const App = () => {
 
         
 
-        </body>
+     </body>
   )
 }
 
