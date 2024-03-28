@@ -33,8 +33,17 @@ const App = () => {
         
 
        <div className={styles.container}>
-       <img className={styles.backgroundContainer} src={imgContainer} />
+          <img className={styles.backgroundContainer} src={imgContainer} />
           <img className={styles.logoContainer} src={logoContainer}/>
+
+          <div className={styles.caixa}>
+           <p className={styles.caixaText}>Consult Doctor é um site que permite agendar consultas médicas online de forma rápida e fácil. Os usuários podem escolher entre uma variedade de especialidades, ver a disponibilidade de horários em tempo real. O site também fornece informações detalhadas sobre os médicos e envia lembretes automáticos de consulta. É uma solução conveniente para acessar cuidados médicos de qualidade sem sair de casa.</p>
+          </div>
+
+          <div className={styles.caixaTitulo}>
+            <p className={styles.titleText}>Título da Forma</p>
+          </div>
+
        </div>
 
        <div className={styles.main}>

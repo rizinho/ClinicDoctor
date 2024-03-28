@@ -104,3 +104,44 @@
     height: 800px;
 }
 
+.caixa{
+    position: absolute; /* Posição absoluta em relação ao contêiner pai */
+    top: 65%; /* Ajusta a posição verticalmente */
+    left: 40px; /* Ajusta a posição horizontalmente */
+    transform: translateY(-50%); /* Centraliza a forma geométrica */
+    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo da forma geométrica */
+    width: 500px; /* Largura da forma geométrica */
+    height: 600px; /* Altura da forma geométrica */
+    border-radius: 25px; /* Borda arredondada */
+    display: flex; /* Para centralizar o texto verticalmente */
+    justify-content: center; /* Para centralizar o texto horizontalmente */
+    align-items: center; /* Para centralizar o texto verticalmente */
+}
+
+.caixaText {
+    color: black; /* Cor do texto */
+    font-size: 25px; /* Tamanho da fonte */
+    font-family: 'Montserrat'; /* Peso da fonte */
+    padding: 8px;
+  }
+
+  .caixaTitulo {
+    position: absolute;
+    top: 36%; /* Posicionamento da nova forma */
+    left: 15.25%; /* Posicionamento da nova forma */
+    transform: translate(-50%, -50%);
+    background-color: #6ba596; /* Cor de fundo da nova forma */
+    width: 500px; /* Largura da nova forma */
+    height: 50px; /* Altura da nova forma */
+    border-radius: 50px; /* Borda arredondada */
+    display: flex; /* Para centralizar o texto verticalmente */
+    justify-content: center; /* Para centralizar o texto horizontalmente */
+    align-items: center; /* Para centralizar o texto verticalmente */
+  }  
+
+  .titleText {
+    color: black; /* Cor do texto */
+    font-size: 30px; /* Tamanho da fonte */
+    font-weight:500;
+    font-family: 'montserrat'; /* Peso da fonte */
+  }
