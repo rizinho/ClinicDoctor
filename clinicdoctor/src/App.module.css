@@ -1,5 +1,5 @@
 body{
-    background-color: #f3f3f3;
+    background-color: #ebebeb;
 }
 /*Header*/
 .header{
@@ -152,9 +152,9 @@ body{
   }
 
   .ajuda{
-    background-color: #6ba596;
+    background-color: #a8ddcf;
     margin-top: 40px;
-    padding:40px ;
+    padding:50px ;
     align-items: center;
   }
 
@@ -163,4 +163,5 @@ body{
     font-size: 30px;
     font-weight: 800;
     font-family: 'montserrat';
+    text-decoration: underline;
   }
