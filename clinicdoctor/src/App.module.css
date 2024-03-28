@@ -1,10 +1,13 @@
+body{
+    background-color: #f3f3f3;
+}
 /*Header*/
 .header{
     display: flex;
     align-items: center;
     justify-content:space-between;
     min-height: 90px;
-    padding: 10px 29px 10px 20px;
+    padding: 5px 29px 1px 20px;
 }
 
 
@@ -95,8 +98,8 @@
 
 .logoContainer{
     position: relative;
-    width: 400px;
-    height: 150px;
+    width: 420px;
+    height: 170px;
     margin-right: 50px;
 }
 
@@ -106,13 +109,13 @@
 
 .caixa{
     position: absolute; /* Posição absoluta em relação ao contêiner pai */
-    top: 65%; /* Ajusta a posição verticalmente */
-    left: 40px; /* Ajusta a posição horizontalmente */
+    top: 56%; /* Ajusta a posição verticalmente */
+    left: 150px; /* Ajusta a posição horizontalmente */
     transform: translateY(-50%); /* Centraliza a forma geométrica */
     background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo da forma geométrica */
     width: 500px; /* Largura da forma geométrica */
     height: 600px; /* Altura da forma geométrica */
-    border-radius: 25px; /* Borda arredondada */
+    border-radius: 45px; /* Borda arredondada */
     display: flex; /* Para centralizar o texto verticalmente */
     justify-content: center; /* Para centralizar o texto horizontalmente */
     align-items: center; /* Para centralizar o texto verticalmente */
@@ -121,19 +124,21 @@
 .caixaText {
     color: black; /* Cor do texto */
     font-size: 25px; /* Tamanho da fonte */
+    font-weight: 500;  /*Peso da fonte*/
     font-family: 'Montserrat'; /* Peso da fonte */
     padding: 8px;
+    text-align: center;
   }
 
   .caixaTitulo {
     position: absolute;
-    top: 36%; /* Posicionamento da nova forma */
-    left: 15.25%; /* Posicionamento da nova forma */
-    transform: translate(-50%, -50%);
+    top: 28%; /* Posicionamento da nova forma */
+    left: 150px; /* Posicionamento da nova forma */
+    transform: translateY(-50%);
     background-color: #6ba596; /* Cor de fundo da nova forma */
     width: 500px; /* Largura da nova forma */
-    height: 50px; /* Altura da nova forma */
-    border-radius: 50px; /* Borda arredondada */
+    height: 80px; /* Altura da nova forma */
+    border-radius: 60px; /* Borda arredondada */
     display: flex; /* Para centralizar o texto verticalmente */
     justify-content: center; /* Para centralizar o texto horizontalmente */
     align-items: center; /* Para centralizar o texto verticalmente */
@@ -142,6 +147,20 @@
   .titleText {
     color: black; /* Cor do texto */
     font-size: 30px; /* Tamanho da fonte */
-    font-weight:500;
+    font-weight:800;
     font-family: 'montserrat'; /* Peso da fonte */
+  }
+
+  .ajuda{
+    background-color: #6ba596;
+    margin-top: 40px;
+    padding:40px ;
+    align-items: center;
+  }
+
+  .textAjuda{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'montserrat';
   }

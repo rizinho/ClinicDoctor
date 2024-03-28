@@ -41,12 +41,16 @@ const App = () => {
           </div>
 
           <div className={styles.caixaTitulo}>
-            <p className={styles.titleText}>Título da Forma</p>
+            <p className={styles.titleText}>SOBRE NÓS</p>
           </div>
 
        </div>
 
        <div className={styles.main}>
+
+        <div className={styles.ajuda}>
+          <p className={styles.textAjuda}> Olá, como podemos te ajudar?</p>
+        </div>
 
       
        </div>
