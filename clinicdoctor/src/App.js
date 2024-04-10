@@ -52,7 +52,14 @@ const App = () => {
           <p className={styles.textAjuda}> Olá, como podemos te ajudar?</p>
         </div>
 
-      
+        <div className={styles.caixa1}>
+           <p className={styles.titleBox1}>Fale conosco</p>
+          </div>
+
+        <div className={styles.caixa2}>
+           <p className={styles.titleBox2}></p>
+        </div>
+
        </div>
 
         
