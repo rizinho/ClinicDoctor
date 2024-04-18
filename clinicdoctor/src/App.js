@@ -51,13 +51,18 @@ const App = () => {
         <div className={styles.ajuda}>
           <p className={styles.textAjuda}> Olá, como podemos te ajudar?</p>
         </div>
+        
+        <div className={styles.caixaContainer}>
+                <div className={styles.caixa1}>
+                  <p className={styles.titleBox1}>Fale conosco</p>
+                  <p className={styles.textBox1}>Telefone: (14) 99887766<br/><br/>Whatsapp: (14) 99887766<br/><br/>E-mail: beta@gmail.com</p>
+                </div>
 
-        <div className={styles.caixa1}>
-           <p className={styles.titleBox1}>Fale conosco</p>
-          </div>
+                <div className={styles.caixa2}>
+                    <p className={styles.titleBox2}>Duvidas frequentes</p>
+                    <button className={}></button>
+                </div>
 
-        <div className={styles.caixa2}>
-           <p className={styles.titleBox2}></p>
         </div>
 
        </div>

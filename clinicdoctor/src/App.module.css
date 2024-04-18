@@ -136,6 +136,8 @@ body{
     height: 800px;
 }
 
+
+
 .caixa{
     position: absolute; /* Posição absoluta em relação ao contêiner pai */
     top: 56%; /* Ajusta a posição verticalmente */
@@ -174,10 +176,10 @@ body{
   }  
 
   .titleText {
-    color: black; /* Cor do texto */
+    color: black;
     font-size: 30px; /* Tamanho da fonte */
     font-weight:800;
-    font-family: 'montserrat'; /* Peso da fonte */
+    font-family: 'montserrat';
   }
 
   .ajuda{
@@ -195,22 +197,72 @@ body{
     text-decoration: underline;
   }
 
+  .caixaContainer{
+    display: flex;
+}
+
   .caixa1{
     background-color: white;
     margin-top: 40px;
-    margin-left: 80px;
+    margin-left: 110px;
     border-radius: 45px;
-    padding:50px ;
+    padding:30px ;
     align-items: center;
-    width: 500px;
+    width: 400px;
     height: 200px;
+    flex: 1;
+    margin-right: 400px;
 }
 
 .titleBox1 {
     color: black; /* Cor do texto */
-    font-size: 25px; /* Tamanho da fonte */
+    font-size: 33px; /* Tamanho da fonte */
     font-weight: 500;  /*Peso da fonte*/
     font-family: 'Montserrat'; /* Peso da fonte */
     padding: 8px;
+    text-align: center;
+  }
+
+  .textBox1 {
+    color: black; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: 300;  /*Peso da fonte*/
+    font-family: 'Montserrat'; /* Peso da fonte */
+    margin-top: 26px;
+    text-align: left;
+    text-align: center;
+  }
+
+
+  .caixa2{
+    position: relative;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 110px;
+    border-radius: 45px;
+    padding:30px ;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    flex:1;
+    margin-right: 110px;
+}
+
+.titleBox2 {
+    color: black; /* Cor do texto */
+    font-size: 33px; /* Tamanho da fonte */
+    font-weight: 500;  /*Peso da fonte*/
+    font-family: 'Montserrat'; /* Peso da fonte */
+    padding: 8px;
+    text-align: center;
+  }
+
+  .textBox2 {
+    color: black; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: 300;  /*Peso da fonte*/
+    font-family: 'Montserrat'; /* Peso da fonte */
+    margin-top: 26px;
+    text-align: left;
     text-align: center;
   }
