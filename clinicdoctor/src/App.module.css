@@ -1,3 +1,32 @@
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 100%; /* Reduz ou ajusta a largura para telas menores */
+        justify-content: center; /* Centraliza o logo se necessário */
+    }
+
+    .navBar {
+        width: 100%; /* Ajusta a largura da barra de navegação */
+        flex-direction: column; /* Organiza os itens da barra de navegação verticalmente */
+    }
+
+    .bLogin {
+        width: 100%; /* Ajusta a largura do botão para preencher o espaço disponível */
+    }
+
+    .container, .backgroundContainer {
+        height: auto; /* Ajusta a altura dos containers para ser automática */
+        flex-direction: column; /* Organiza os elementos verticalmente */
+    }
+
+    .caixa, .caixaTitulo {
+        width: 90%; /* Ajusta a largura para uma porcentagem da tela */
+        left: 5%; /* Centraliza a caixa */
+        top: 50%; /* Ajusta a posição vertical */
+    }
+}
+
+
+
 body{
     background-color: #ebebeb;
 }
