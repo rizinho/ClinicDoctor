@@ -60,7 +60,8 @@ const App = () => {
 
                 <div className={styles.caixa2}>
                     <p className={styles.titleBox2}>Duvidas frequentes</p>
-                    <button className={}></button>
+                    <button className={styles.butDuvidas}>Duvidas sobre cadastro</button>
+                    <button className={styles.butDuvidas}>Duvidas sobre pagamentos</button>
                 </div>
 
         </div>

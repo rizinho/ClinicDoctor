@@ -266,3 +266,23 @@ body{
     text-align: left;
     text-align: center;
   }
+
+  .butDuvidas{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    background-color: #6ba596;
+    cursor: pointer;
+    width: 500px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 15px;
+    
+  }
+
+  .butDuvidas:hover{
+    background-color: #3b5d54;
+    color: white;
+}
