@@ -98,6 +98,7 @@ body{
     margin-left: 25px;
     padding: 10px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .bLogin:hover{
