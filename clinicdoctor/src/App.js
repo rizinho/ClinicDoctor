@@ -1,18 +1,17 @@
-// npm install react-router-dom
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import Cadastro from './Cadastro.js';
 
 import styles from './App.module.css';
-import React from 'react';
-import { BrowserRouter as Router, Link, Route, Routes, Switch, } from 'react-router-dom';
-import Cadastro from './Cadastro'; // Importe a página de Cadastro
-
 import icon from './assets/logotcc.png';
 import imgContainer from './assets/imgContainer.png';
 import logoContainer from './assets/logoContainer.png';
 
+
 const App = () => {
   return (
     <Router>
-      <body>
+      <div>
         <div className={styles.header}>
           <div className={styles.logo}>
             <img className={styles.icon} src={icon} alt='Imagem do logo' />
@@ -22,7 +21,6 @@ const App = () => {
             <button className={styles.link}>SAC</button>
             <button className={styles.link}>Configurações</button>
             <button className={styles.bLogin}>Login</button>
-            {/* Utilize o Link do React Router para redirecionar para a página de Cadastro */}
             <Link to="/Cadastro" className={styles.bLogin}>Cadastro</Link>
           </div>
         </div>
@@ -51,22 +49,17 @@ const App = () => {
               <p className={styles.textBox1}>Telefone: (14) 99887766<br /><br />Whatsapp: (14) 99887766<br /><br />E-mail: beta@gmail.com</p>
             </div>
 
-           <div className={styles.caixa2}>
+            <div className={styles.caixa2}>
               <p className={styles.titleBox2}>Duvidas frequentes</p>
-                  <button className={styles.butDuvidas}>Duvidas sobre cadastro</button>
-                  <button className={styles.butDuvidas}>Duvidas sobre pagamentos</button>
-           </div>
+              <button className={styles.butDuvidas}>Duvidas sobre cadastro</button>
+              <button className={styles.butDuvidas}>Duvidas sobre pagamentos</button>
+            </div>
           </div>
         </div>
-
-        {/* Defina as rotas usando o React Router */}
-        <Switch>
-        <Routes>
-          <Route path="/cadastro" element={<Cadastro />}/>
-            
-          </Routes>
-        </Switch>
-      </body>
+      </div>
+      <Switch>
+        <Route path="/Cadastro" component={Cadastro} />
+      </Switch>
     </Router>
   );
 }
