@@ -58,7 +58,7 @@ const App = () => {
         </div>
       </div>
       <Switch>
-        <Route path="/Cadastro" component={Cadastro} />
+        <Link path="/Cadastro" component={Cadastro} />
       </Switch>
     </Router>
   );
